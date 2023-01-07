@@ -1,0 +1,233 @@
+body {
+  background-color: #424962;
+ 
+}
+
+* {
+ margin: 0;
+ padding: 0;
+}
+
+nav {
+  font-family: 'Poppins', 'sans-serif';
+}
+
+nav ul {
+ display: flex;
+ align-items: center;
+ list-style-type: none;
+ height: 100px;
+ background-color: rgb(79, 59, 7);
+ color: #0c9567;
+ font-weight: solid;
+}
+
+nav ul li {
+ padding: 0 12px;
+}
+.brand video {
+ width: 100px;
+ padding: 0 8px;
+}
+
+.brand {
+ display: flex;
+ align-items: center;
+ font-weight: bolder;
+ font-size: 1.3rem;
+}
+.logo-name{
+ color: #111110;
+ font-size: 24px;
+ text-align: center;
+}
+
+.link a {
+ color: #FFE3FE;
+ background-color: rgb(102, 11, 75);
+ opacity: 0.5;
+ text-decoration: none;
+ text-transform: capitalize;
+ padding: 10px 30px;
+ line-height: 80px;
+ transition: 0.5s;
+ font-size: 40px;
+ font-weight: solid;
+}
+
+.link a:hover {
+ opacity: 2;
+}
+
+#rangeBar {
+ width: 98%;
+ height: 2px;
+ cursor: pointer;
+}
+.songbar {
+ padding: 1rem;
+ background-color: #ad490b;
+ width: 100%;
+ z-index: 2;
+ margin: auto;
+ position: fixed;
+ bottom: 1rem;
+}
+#masterSongBar {
+ align-items: center;
+ margin: 0 2rem;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.mid_btn {
+ display: inline-flex;
+ align-items: center;
+}
+
+.mid_btn i {
+ padding: 0 8px;
+ cursor: pointer;
+ margin: 0 4px;
+}
+
+.queue {
+ background-color: rgb(19, 17, 17);
+}
+
+#id {
+ background-color: white;
+}
+
+.songInfo {
+ display: flex;
+ align-items: center;
+ padding: 0px 20px;
+ margin: 5px 0;
+}
+
+.masterSongName {
+ margin: 0 10px;
+
+}
+
+.songName {
+ cursor: pointer;
+}
+
+
+#Queue,
+.addtoqueue {
+ background-color: #FBDFF0;
+ border: none;
+ color: black;
+ padding: 10px 20px;
+ font-size: 16px;
+ font-weight: bold;
+ cursor: pointer;
+ border-radius: 5px;
+ margin: 0 15px;
+}
+
+#Queue:hover,
+.addtoqueue:hover {
+ background-color: #9a541a;
+}
+
+
+.queuedSong {
+ cursor: pointer;
+}
+
+.cont_nav {
+ display: flex;
+ justify-content: space-evenly;
+ align-items: center;
+}
+#music_list {
+ display: flex;
+ flex-direction: column;
+ /* background-color: ; */
+width: 50%;
+min-width: 30%;
+position: relative;
+margin: 20px auto;
+border-radius: 20px;
+height: 70vh;
+color: rgb(212, 212, 220);
+
+ max-height: 470px;
+ overflow-y: scroll;
+ /* width: 50%; */
+ padding: 1rem;
+}
+#music_list::-webkit-scrollbar {
+ width: 0;
+ background: transparent;
+}
+
+#music_list::-moz-scrollbar {
+ width: 0;
+ background: transparent;
+}
+
+#music_list {
+ -ms-overflow-style: none;
+}
+
+
+
+.musicListDiv
+{
+ border: 0.5px #e71c1c solid;
+ padding: 4px 1rem;
+}
+
+
+.shuffleon {
+ color: rgb(166, 207, 44);
+}
+.section-side {
+ display: flex;
+ flex-grow: 1;
+}
+.current-time,
+.total-duration,
+#masterSongName {
+ font-size: 16px;
+ font-weight: bold;
+}
+
+
+#qd,
+#sd{
+ display: flex;
+ flex-direction: column;
+ border-radius: 10px;
+ margin: 20px auto;
+ text-align: center;
+ /* padding: 10px; */
+ background-color: #d60a44;
+ color: black;
+ height: 50%;
+ width: 20%;
+}
+
+#searchsong{
+ background-color: rgb(234, 229, 234);
+ width: 240px;
+ height: 20px;
+ color: rgb(113, 111, 111);
+ font-size: medium;
+ font-weight: solid;
+ padding: 1rem;
+ border-radius: 4px;
+ border-color: #F6C3E5;
+}
+
+#searchsong:hover{
+background-color: #0e0e0e;
+border-radius: 8px;
+border-color: #d3c9d7
+}
